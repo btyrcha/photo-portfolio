@@ -1,6 +1,10 @@
-# Welcome to My Photography Portfolio
+---
+layout: default
+---
 
-My analog photography portfolio.
+# My ananalog photography portfolio
+
+Welcome to my analog photography portfolio.
 
 ## Gallery
 
