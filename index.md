@@ -1,8 +1,9 @@
 ---
 layout: default
+title: My Photography Portfolio
 ---
 
-# My ananalog photography portfolio
+# My analog photography portfolio
 
 Hi! Welcome to my analog photography portfolio, 
 where I present you some of my favourite shots.
