@@ -13,12 +13,17 @@ Enjoy.
 ## Gallery
 
 <div class="gallery">
+  <a href="{{ site.baseurl }}/assets/photos/F1190009.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190009.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/F1190013.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190013.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/F1190023.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190023.jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/F1010008.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1010008.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/F1040008.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1040008.jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/F1050005.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050005.jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/F1050022.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050022.jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/F1050035.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050035.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1190009.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190009.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1190013.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190013.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" alt=""></a>
 </div>
 
 <div id="lightbox" class="lightbox">
