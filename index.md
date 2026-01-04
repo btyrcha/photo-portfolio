@@ -13,22 +13,10 @@ Enjoy.
 ## Gallery
 
 <div class="gallery">
-  <a href="{{ site.baseurl }}/assets/photos/F1190009.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190009.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1190013.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190013.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1190023.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1190023.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1010008.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1010008.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1040008.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1040008.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1050005.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050005.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1050022.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050022.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/F1050035.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/F1050035.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_02.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_02.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_05.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_05.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_12.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_12.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_13.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_13.jpg" alt=""></a>
-  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_26.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_26.jpg" alt=""></a>
+  {% assign photos = site.static_files | where_exp: "file", "file.path contains 'assets/photos/' and file.extname == '.jpg'" | sort: "modified_time" | reverse %}
+  {% for file in photos %}
+  <a href="{{ site.baseurl }}{{ file.path }}" class="gallery-item"><img src="{{ site.baseurl }}{{ file.path }}" alt=""></a>
+  {% endfor %}
 </div>
 
 <div id="lightbox" class="lightbox">
