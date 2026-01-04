@@ -24,6 +24,11 @@ Enjoy.
   <a href="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0110(2).jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0111(1).jpg" alt=""></a>
   <a href="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/IMG_0132(1).jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_02.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_02.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_05.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_05.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_12.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_12.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_13.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_13.jpg" alt=""></a>
+  <a href="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_26.jpg" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/20250830_agfa_apx_400_26.jpg" alt=""></a>
 </div>
 
 <div id="lightbox" class="lightbox">
