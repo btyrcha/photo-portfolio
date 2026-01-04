@@ -13,9 +13,8 @@ Enjoy.
 ## Gallery
 
 <div class="gallery">
-  {% assign photos = site.static_files | where_exp: "file", "file.path contains 'assets/photos/' and file.extname == '.jpg'" | sort: "modified_time" | reverse %}
-  {% for file in photos %}
-  <a href="{{ site.baseurl }}{{ file.path }}" class="gallery-item"><img src="{{ site.baseurl }}{{ file.path }}" alt=""></a>
+  {% for photo in site.data.gallery %}
+  <a href="{{ site.baseurl }}/assets/photos/{{ photo.filename }}" class="gallery-item"><img src="{{ site.baseurl }}/assets/photos/{{ photo.filename }}" alt=""></a>
   {% endfor %}
 </div>
 
